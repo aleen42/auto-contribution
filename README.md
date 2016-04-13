@@ -30,6 +30,8 @@ npm i
 
 ```bash
 npm start <repo-url under SSH> <coordinates data json file's path>
+
+# example: npm start git@github.com:aleen42/contribution.git example.json
 ```
 
 *Notice that: the repo url should be under SSH protocol like `git@github.com:aleen42/contribution.git`
