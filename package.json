@@ -1,0 +1,29 @@
+{
+  "name": "auto-contribution",
+  "version": "1.0.0",
+  "description": "automatically generate contributions with shell script",
+  "main": "index.js",
+  "scripts": {
+    "start": "sh ./lib/script.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleen42/auto-contribution.git"
+  },
+  "keywords": [
+    "contributions"
+  ],
+  "author": "aleen42 <aleen42@vip.qq.com> (http://aleen42.github.io/pc.html)",
+  "contributors": [
+    "aleen42 <aleen42@vip.qq.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aleen42/auto-contribution/issues"
+  },
+  "homepage": "https://github.com/aleen42/auto-contribution#readme",
+  "dependencies": {
+    "gh-contributions": "^3.0.0"
+  }
+}
