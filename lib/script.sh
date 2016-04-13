@@ -22,21 +22,26 @@
 #
 ########################################################################
 
-if [[ $1 ]]; then
+if [[ $1 && $2 ]]; then
 	#statements
-	repo=`node ./lib/start.js`
+	repo=`node ./lib/start.js $2`
 
-	# enter the generated repo
-	cd $repo
+	if [[ $repo =~ "repo" ]]; then
+		#statements
+		# enter the generated repo
+		cd $repo
 
-	# bind the remote url to this repo
-	`git remote add origin $1`
+		# bind the remote url to this repo
+		`git remote add origin $1`
 
-	# force to update remote master branch
-	`git push -f origin master`
+		# force to update remote master branch
+		`git push -f origin master`
 
-	# remove the generated repo
-	rm -r $repo
+		# remove the generated repo
+		rm -r $repo
+	else
+		echo $repo
+	fi
 else
-	echo "[Error] Miss parameters: where is your repo url under SSH";
+	echo "[Error: Miss parameters]";
 fi

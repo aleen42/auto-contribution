@@ -1,6 +1,6 @@
 {
   "name": "auto-contribution",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "automatically generate contributions with shell script",
   "main": "index.js",
   "scripts": {
