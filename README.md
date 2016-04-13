@@ -1,5 +1,7 @@
 ## auto-contribution
 
+[![Join the chat at https://gitter.im/aleen42/auto-contribution](https://badges.gitter.im/aleen42/auto-contribution.svg)](https://gitter.im/aleen42/auto-contribution?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 <img src="example.png">
 
 a node.js module for automatically generating contributions on github without worrying about its movement in the next week. **This module is only used in Linux.**
