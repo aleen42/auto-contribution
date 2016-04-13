@@ -1,5 +1,7 @@
 ## auto-contribution
 
+[![Build Status](https://travis-ci.org/aleen42/auto-contribution.svg?branch=master)](https://travis-ci.org/aleen42/auto-contribution)  [![Gitter](https://badges.gitter.im/aleen42/auto-contribution.svg)](https://gitter.im/aleen42/auto-contribution?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) 
+
 <img src="example.png">
 
 a node.js module for automatically generating contributions on github without worrying about its movement in the next week. **This module is only used in Linux.**
