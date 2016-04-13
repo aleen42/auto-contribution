@@ -24,7 +24,7 @@
 
 if [[ $1 ]]; then
 	#statements
-	repo=`node ./lib/index.js`
+	repo=`node ./lib/start.js`
 
 	# enter the generated repo
 	cd $repo

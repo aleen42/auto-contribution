@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "sh ./lib/script.sh",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,9 @@
   "homepage": "https://github.com/aleen42/auto-contribution#readme",
   "dependencies": {
     "gh-contributions": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
   }
 }
