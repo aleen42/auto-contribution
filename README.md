@@ -2,27 +2,46 @@
 
 a node.js module for automatically generating contributions on github without worry about its movement
 
-## Installation
+#### Installation
 
-    npm install auto-contribution
-    npm i
+###### NPM Installation
 
-## Usage
+```bash
+npm install auto-contribution
+cd ./node_modules/auto-contribution
+npm i
+```
 
-    npm start [repo-url under SSH]
+###### Clone Installation
 
-## Tests
+```bash
+git clone https://github.com/aleen42/auto-contribution.git
+cd auto-contribution
+npm i
+```
 
-    npm test
+#### Usage
 
-## Release History
+```bash
+npm start [repo-url under SSH]
+```
+
+#### Tests
+
+```bash
+npm test
+```
+
+*Notice that the repository generated with test case will be in `./auto-contribution/node_modules/gh-contributions/lib/public/repos/`*
+
+#### Release History
 
 * 1.0.0 Initial release
 
-## :yum: How to contribute
+#### :yum: How to contribute
 
 Have an idea? Found a bug? See [how to contribute](https://aleen42.gitbooks.io/personalwiki/content/contribution.html).
 
-## :scroll: License
+#### :scroll: License
 
 [MIT](https://aleen42.gitbooks.io/personalwiki/content/MIT.html) © aleen42
