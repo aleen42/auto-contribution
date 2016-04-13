@@ -91,6 +91,7 @@ npm test
 
 * 1.0.0 Initial release
 	* 1.1.0 Catch some exceptions
+	* 1.1.1 Update readme.md
 
 #### :yum: How to contribute
 
