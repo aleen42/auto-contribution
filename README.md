@@ -2,7 +2,7 @@
 
 <img src="example.png">
 
-a node.js module for automatically generating contributions on github without worrying about its movement in the next week.
+a node.js module for automatically generating contributions on github without worrying about its movement in the next week. **This module is only used in Linux.**
 
 #### Installation
 
