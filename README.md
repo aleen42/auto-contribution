@@ -1,6 +1,7 @@
 ## auto-contribution
 
-[![Build Status](https://travis-ci.org/aleen42/auto-contribution.svg?branch=master)](https://travis-ci.org/aleen42/auto-contribution)  [![Gitter](https://badges.gitter.im/aleen42/auto-contribution.svg)](https://gitter.im/aleen42/auto-contribution?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) 
+[![npm version](https://badge.fury.io/js/auto-contribution.svg)](https://badge.fury.io/js/auto-contribution) [![Build Status](https://travis-ci.org/aleen42/auto-contribution.svg?branch=master)](https://travis-ci.org/aleen42/auto-contribution) 
+[![devDependency Status](https://david-dm.org/aleen42/auto-contribution.svg)](https://github.com/aleen42/auto-contribution) [![Gitter](https://badges.gitter.im/aleen42/auto-contribution.svg)](https://gitter.im/aleen42/auto-contribution?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) 
 
 <img src="example.png">
 
