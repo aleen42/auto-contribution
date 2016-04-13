@@ -4,7 +4,7 @@ a node.js module for automatically generating contributions on github without wo
 
 ## Installation
 
-    npm install auto-contributino
+    npm install auto-contribution
     npm i
 
 ## Usage
