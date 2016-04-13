@@ -1,5 +1,7 @@
 ## auto-contribution
 
+<img src="example.png">
+
 a node.js module for automatically generating contributions on github without worrying about its movement
 
 #### Installation
