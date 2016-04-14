@@ -1,5 +1,8 @@
 ## auto-contribution
 
+[![Pay](https://img.shields.io/badge/%24-free-%23a10000.svg)](#) [![GitHub issues](https://img.shields.io/github/issues/aleen42/auto-contribution.svg)](https://github.com/aleen42/auto-contribution/issues) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/aleen42/auto-contribution/master/LICENSE) [![npm version](https://badge.fury.io/js/auto-contribution.svg)](https://badge.fury.io/js/auto-contribution) [![Build Status](https://travis-ci.org/aleen42/auto-contribution.svg?branch=master)](https://travis-ci.org/aleen42/auto-contribution) 
+[![devDependency Status](https://david-dm.org/aleen42/auto-contribution.svg)](https://github.com/aleen42/auto-contribution) [![Gitter](https://badges.gitter.im/aleen42/auto-contribution.svg)](https://gitter.im/aleen42/auto-contribution?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) 
+
 <img src="example.png">
 
 a node.js module for automatically generating contributions on github without worrying about its movement in the next week. **This module is only used in Linux.**
