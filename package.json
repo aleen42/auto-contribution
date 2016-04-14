@@ -24,10 +24,12 @@
   },
   "homepage": "https://github.com/aleen42/auto-contribution#readme",
   "dependencies": {
-    "gh-contributions": "^3.0.0"
+    "gh-contributions": "^3.0.0",
+    "progress": "^1.1.8"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "mocha-lcov-reporter": "^1.2.0"
   }
 }

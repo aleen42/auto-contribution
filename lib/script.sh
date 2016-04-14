@@ -22,6 +22,7 @@
 #
 ########################################################################
 
+
 if [[ $1 && $2 ]]; then
 	#statements
 	repo=`node ./lib/start.js $2`
@@ -30,6 +31,9 @@ if [[ $1 && $2 ]]; then
 		#statements
 		# enter the generated repo
 		cd $repo
+
+		# create a new line
+		printf "\n"
 
 		# bind the remote url to this repo
 		`git remote add origin $1`
