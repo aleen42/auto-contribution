@@ -97,7 +97,7 @@ npm test
 	* 1.1.1 Update readme.md
 	* 1.2.0 Add progress to improve interaction
 
-#### :yum: How to contribute
+#### :fuelpump: How to contribute
 
 Have an idea? Found a bug? See [how to contribute](https://aleen42.gitbooks.io/personalwiki/content/contribution.html).
 
