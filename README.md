@@ -59,13 +59,15 @@ then build up a colorful calendar for yourself, and then genereate json data, wh
 
 <img src="./pic/6.gif">
 
+**iv.** Start to update
+
 ```bash
 npm start <repo-url under SSH> <coordinates data json file path>
 
 # example: npm start git@github.com:aleen42/contribution.git example.json
 ```
 
-*repo-url under SSH: the repo url should be under SSH protocol like `git@github.com:aleen42/contribution.git`*
+*repo-url under SSH: the repo url should be under SSH protocol like `git@github.com:aleen42/contribution.git` so that we can run the script in a crontab task.*
 
 <img src="./screenshot1.png">
 
