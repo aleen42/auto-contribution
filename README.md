@@ -33,15 +33,31 @@ npm i
 
 <img src="./pic/1.gif">
 
-**ii.** Make sure you have set up SSH for this repo, because I should update your remote repo
-
-**iii.** Enter root mode to run test:
+**ii.** Enter root mode to run install and test:
 
 ```bash
-npm test
+npm i && npm test
 ```
 
-**iv.** Enter root mode to run if all test cases have passed:
+<img src="./pic/2.gif">
+
+<img src="./pic/3.gif">
+
+**iii.** Create a json file with [**IonicaBizau/github-contributions**](https://github.com/IonicaBizau/github-contributions)
+
+```bash
+npm i -g gh-contributions && gh-contributions
+```
+
+<img src="./pic/4.gif">
+
+after complete listening, you can just visit the website `localhost:9000`
+
+<img src="./pic/5.gif">
+
+then build up a colorful calendar for yourself, and then genereate json data, which should be store into a json file
+
+<img src="./pic/6.gif">
 
 ```bash
 npm start <repo-url under SSH> <coordinates data json file path>
