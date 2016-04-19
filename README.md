@@ -31,6 +31,8 @@ npm i
 
 **i.** Setup your repository to store generated commits history
 
+<img src="./pic/1.gif">
+
 **ii.** Make sure you have set up SSH for this repo, because I should update your remote repo
 
 **iii.** Enter root mode to run test:
