@@ -101,7 +101,7 @@ npm start <repo-url under SSH> <coordinates data json file path>
 # For more information see the manual pages of crontab(5) and cron(8)
 #
 # m h  dom mon dow   command
-0 0 * * 0 npm start git@github.com:aleen42/contribution.git example.json
+0 0 * * 0 cd /opt/lampp/htdocs/auto-contribution && npm start git@github.com:aleen42/contribution.git example.json
 ```
 
 #### Tests
