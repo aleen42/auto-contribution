@@ -124,6 +124,7 @@ npm test
 	* 1.1.0 Catch some exceptions
 	* 1.1.1 Update readme.md
 	* 1.2.0 Add progress to improve interaction
+	* 1.2.1 Update readme.md
 
 #### :fuelpump: How to contribute
 
