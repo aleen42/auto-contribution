@@ -1,0 +1,36 @@
+{
+  "name": "auto-contribution",
+  "version": "1.2.1",
+  "description": "automatically generate contributions with shell script",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node ./lib/start.js",
+    "server": "node ./node_modules/gh-contributions/lib/server.js",
+    "test": "node ./node_modules/mocha/bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleen42/auto-contribution.git"
+  },
+  "keywords": [
+    "contributions"
+  ],
+  "author": "aleen42 <aleen42@vip.qq.com> (http://aleen42.github.io/pc.html)",
+  "contributors": [
+    "aleen42 <aleen42@vip.qq.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aleen42/auto-contribution/issues"
+  },
+  "homepage": "https://github.com/aleen42/auto-contribution#readme",
+  "dependencies": {
+    "gh-contributions": "3.0.10",
+    "progress": "1.1.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "mocha-lcov-reporter": "^1.2.0"
+  }
+}
